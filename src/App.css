@@ -1,0 +1,13 @@
+:root {
+  background-color: #242424;
+  margin: 0 auto;
+}
+.App {
+  
+ 
+}
+body{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
