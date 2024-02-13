@@ -1,8 +1,8 @@
-import './Header.css'
+import styles from './Header.module.css'
 
 function Header () {
     return(
-        <img className='logo' src='' alt='Logo'></img>
+        <img className={styles.logo} src='' alt='Logo'></img>
     )
 
 }
