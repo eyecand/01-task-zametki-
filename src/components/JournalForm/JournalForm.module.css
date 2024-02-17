@@ -1,12 +1,44 @@
 .journal-form {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.invalid{
-    border: 1px solid red;
-    background: rgb(122, 2, 2);
-    color: white;
+.input {
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  border-bottom: 1px solid #323232;
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
 }
-.input{}
+.input-title {
+  border: none;
+  background: none;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  border-bottom: 1px solid #323232;
+  color: rgba(255, 255, 255, 0.6);
+  width: 100%;
+}
+.form-label {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-width: 150px;
+}
+.form-label img {
+  width: 24px;
+  color: white;
+}
+.form-row {
+  display: flex;
+  align-items: center;
+}
+.invalid {
+  border: 1px solid red;
+  background: rgb(122, 2, 2);
+  color: white;
+}
